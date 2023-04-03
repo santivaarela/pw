@@ -8,19 +8,19 @@ font-family: Arial, Helvetica, sans-serif;
 body{  font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Stickea todo el header + bordes, relleno, etc*/
+/*Stickea todo el header + relleno, etc*/
 header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     padding: 5px;
     background-color:#fffffff5;
-    border: 2px solid #111313;
+    
 }
 footer {background-color: #fffffff5;
     font-family: Arial, Helvetica, sans-serif;
 }
-#logo {
+#logo_dotels {
     text-align:right;
 }
 
