@@ -21,9 +21,52 @@ footer {background-color: #fffffff5;
     font-family: Arial, Helvetica, sans-serif;
 }
 #logo_dotels {
-    text-align:right;
+    text-align:center;
 }
 
 #logo_wpp {
     text-align: right;
 }
+
+.flex-container {
+    display:flex
+}  
+.flex-container {
+    margin: 10px;
+    padding: 20px;
+    font-size: 50px;
+    justify-content: space-between;
+}
+
+.flex-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: large;
+}
+
+.flex-container-header>div{
+    display:flex
+}
+.flex-container-header>div{
+    margin: 10px;
+    padding: 2px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.flex-box-header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: large;
+}
+
+.example {
+    padding: 1px;
+  }
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .example {background: red;}
+  }
+  
