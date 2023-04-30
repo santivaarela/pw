@@ -1,8 +1,9 @@
-body{background-color: lightgray;}
+/*body{background-color: lightgray;}*/
 h1 {
 text-align: center;
 color: #46e7f5;
 font-family: Arial, Helvetica, sans-serif;
+font-size:x-large;
 }
 
 body{  font-family: Arial, Helvetica, sans-serif;
@@ -14,14 +15,14 @@ header {
     position: sticky;
     top: 0;
     padding: 5px;
-    background-color:#fffffff5;
+    background-color:#7cd0ccf9;
     
 }
-footer {background-color: #fffffff5;
+footer {background-color: #7cd0ccf2;
     font-family: Arial, Helvetica, sans-serif;
 }
 #logo_dotels {
-    text-align:center;
+    text-align:right;
 }
 
 #logo_wpp {
@@ -36,6 +37,10 @@ footer {background-color: #fffffff5;
     padding: 20px;
     font-size: 50px;
     justify-content: space-between;
+    border: 1px solid black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .flex-box{
@@ -43,30 +48,58 @@ footer {background-color: #fffffff5;
     flex-direction: column;
     text-align: center;
     font-size: large;
+    border: 1px solid black;
 }
 
-.flex-container-header>div{
-    display:flex
-}
-.flex-container-header>div{
-    margin: 10px;
-    padding: 2px;
-    font-size: 20px;
-    justify-content: space-between;
-}
-
-.flex-box-header{
+.flex-box-header-icons{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     font-size: large;
+    border: 1px solid black;
 }
 
-.example {
-    padding: 1px;
-  }
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {
-    .example {background: red;}
-  }
-  
+.flex-container-footer-icons {
+    margin: 10px;
+    padding: 20px;
+    font-size: 50px;
+    justify-content:center;
+    border: 1px solid black;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.flex-box-footer-icons{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-size: large;
+    border: 1px solid black;
+}
+
+.header-dotels{
+    color: #46e7f5;
+    flex-grow: 5;
+    flex-basis: 50%;
+}
+
+.header-icons{
+    flex-grow:0.04;
+    flex-basis: 2%
+}
+
+@media only screen and (max-width: 600px){
+
+    #logo_dotels{
+        text-align: center;
+    }
+
+    .flex-box-footer-icons{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: large;
+        border: 1px solid black;
+    }
+    
+}
