@@ -59,20 +59,24 @@ footer {background-color: #7cd0ccf2;
     border: 1px solid black;
 }
 
+.flex-container-footer-icons{
+    display:flex
+}
+
 .flex-container-footer-icons {
     margin: 10px;
     padding: 20px;
     font-size: 50px;
-    justify-content:center;
+    justify-content:space-between;
     border: 1px solid black;
-    flex-direction:column;
+    flex-direction:row;
     flex-wrap: wrap;
     align-items: center;
 }
 .flex-box-footer-icons{
     display: flex;
     flex-direction: column;
-    text-align: right;
+    text-align: center;
     font-size: large;
     border: 1px solid black;
 }
@@ -94,12 +98,8 @@ footer {background-color: #7cd0ccf2;
         text-align: center;
     }
 
-    .flex-box-footer-icons{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        font-size: large;
-        border: 1px solid black;
+    .flex-container-footer-icons{
+        display:none;
     }
     
 }
