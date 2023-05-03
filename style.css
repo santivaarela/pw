@@ -61,75 +61,76 @@ footer {background-color: #7cd0ccf2;
 }
 
 /* BODY FLEX */
-.flex-container-body1{
-    display:flex
-}  
+    /*BODY 1*/
+        .flex-container-body1{
+            display:flex
+        }  
 
-.flex-container-body1{
-    margin: 10px;
-    padding: 0px;
-    font-size: 50px;
-    justify-content:space-between;
-    border: 1px solid black;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-}
+        .flex-container-body1{
+            margin: 10px;
+            padding: 0px;
+            font-size: 50px;
+            justify-content:space-between;
+            border: 1px solid black;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+        }
 
-.flex-box-body1{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    font-size: large;
-    border: 1px solid black;
-}
+        .flex-box-body1{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            font-size: large;
+            border: 1px solid black;
+        }
 
+    /*BODY 2*/
+        .flex-container-body2{
+            display:flex
+        }  
 
-.flex-container-body2{
-    display:flex
-}  
+        .flex-container-body2{
+            margin: 10px;
+            padding: 10px;
+            font-size: 50px;
+            justify-content:space-between;
+            border: 1px solid black;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: left;
+        }
 
-.flex-container-body2{
-    margin: 10px;
-    padding: 10px;
-    font-size: 50px;
-    justify-content:space-between;
-    border: 1px solid black;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: left;
-}
-
-.flex-box-body2{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    font-size: large;
-    border: 1px solid black;
-}
+        .flex-box-body2{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            font-size: large;
+            border: 1px solid black;
+        }
 
 /*FOOTER FLEX*/
-.flex-container-footer-icons{
-    display:flex
-}
+    .flex-container-footer-icons{
+        display:flex
+    }
 
-.flex-container-footer-icons {
-    margin: 10px;
-    padding: 20px;
-    font-size: 50px;
-    justify-content:space-between;
-    border: 1px solid black;
-    flex-direction:row;
-    flex-wrap: wrap;
-    align-items: center;
-}
-.flex-box-footer-icons{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: large;
-    border: 1px solid black;
-}
+    .flex-container-footer-icons {
+        margin: 10px;
+        padding: 20px;
+        font-size: 50px;
+        justify-content:space-between;
+        border: 1px solid black;
+        flex-direction:row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .flex-box-footer-icons{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: large;
+        border: 1px solid black;
+    }
 
 .header-dotels{
     color: #46e7f5;
@@ -142,13 +143,14 @@ footer {background-color: #7cd0ccf2;
     flex-basis: 2%
 }
 
-@media only screen and (max-width: 600px){
+/*SMALL SCREEN*/
+    @media only screen and (max-width: 600px){
 
-    #logo_dotels{
-        text-align: center;
-    }
+        #logo_dotels{
+            text-align: center;
+        }
 
-    .flex-container-footer-icons{
-        display:none;
+        .flex-container-footer-icons{
+            display:none;
+        }
     }
-}
