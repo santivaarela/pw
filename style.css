@@ -1,4 +1,4 @@
-/*body{background-color: lightgray;}*/
+/*body{background-image: url();}*/
 h1 {
 text-align: center;
 color: #46e7f5;
@@ -29,12 +29,13 @@ footer {background-color: #7cd0ccf2;
     text-align: right;
 }
 
-.flex-container {
+/*HEADER FLEX Y UN FOOTER*/
+.flex-container{
     display:flex
 }  
-.flex-container {
+.flex-container{
     margin: 10px;
-    padding: 20px;
+    padding: 0px;
     font-size: 50px;
     justify-content: space-between;
     border: 1px solid black;
@@ -59,6 +60,55 @@ footer {background-color: #7cd0ccf2;
     border: 1px solid black;
 }
 
+/* BODY FLEX */
+.flex-container-body1{
+    display:flex
+}  
+
+.flex-container-body1{
+    margin: 10px;
+    padding: 0px;
+    font-size: 50px;
+    justify-content:space-between;
+    border: 1px solid black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flex-box-body1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: large;
+    border: 1px solid black;
+}
+
+
+.flex-container-body2{
+    display:flex
+}  
+
+.flex-container-body2{
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+    justify-content:space-between;
+    border: 1px solid black;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: left;
+}
+
+.flex-box-body2{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: large;
+    border: 1px solid black;
+}
+
+/*FOOTER FLEX*/
 .flex-container-footer-icons{
     display:flex
 }
@@ -101,5 +151,4 @@ footer {background-color: #7cd0ccf2;
     .flex-container-footer-icons{
         display:none;
     }
-    
 }
