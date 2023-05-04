@@ -119,12 +119,14 @@ footer {background-color: #7cd0ccf2;
         font-size: large;
         border: 1px solid black;
     }
+
 /*TÍTULO "DOTELS*/
     .header-dotels{
         color: #46e7f5;
         flex-grow: 5;
         flex-basis: 50%;
     }
+
 /*ÍCONOS DEL HEADER*/
     .header-icons{
         flex-grow:0.04;
@@ -132,19 +134,27 @@ footer {background-color: #7cd0ccf2;
     }
 
 /*LINK DE CONTACTO*/
-    /* unvisited link */
-    a:link {
-        color: red;
-    }
-    /* visited link */
-    a:visited {
-        color: green;
-    }
-    
-    /* selected link */
-    a:active {
-        color: blue;
-    }
+
+    /*LINK NO VISITADO*/
+        a:link {
+            color: green;
+        }
+
+    /*MOUSE SOBRE EL LINK*/
+        /*a:hover {
+            color: hotpink;
+        }
+
+    /*LINK VISITADO*/
+        a:visited {
+            color: #7cd0ccf2;
+        }
+        
+    /*LINK SELECCIONADO*/
+        a:active {
+            color: blue;
+        }
+
 /*SMALL SCREEN*/
     @media only screen and (max-width: 600px){
         /*CHAU LOGO E ÍCONOS DE REDES SOCIALES*/
