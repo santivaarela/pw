@@ -1,64 +1,52 @@
 /*body{background-image: url();}*/
-h1 {
-text-align: center;
-color: #46e7f5;
-font-family: Arial, Helvetica, sans-serif;
-font-size:x-large;
-}
 
-body{  font-family: Arial, Helvetica, sans-serif;
-}
+/*FUENTE DEL BODY*/
+    body{  font-family: Arial, Helvetica, sans-serif;
+    }
 
 /*Stickea todo el header + relleno, etc*/
-header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    padding: 5px;
-    background-color:#7cd0ccf9;
-    
-}
+    header {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        background-color:#7cd0ccf9;
+        
+    }
 footer {background-color: #7cd0ccf2;
     font-family: Arial, Helvetica, sans-serif;
 }
-#logo_dotels {
-    text-align:right;
-}
-
-#logo_wpp {
-    text-align: right;
-}
 
 /*HEADER FLEX Y UN FOOTER*/
-.flex-container{
-    display:flex
-}  
-.flex-container{
-    margin: 10px;
-    padding: 0px;
-    font-size: 50px;
-    justify-content: space-between;
-    border: 1px solid black;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-}
+    .flex-container{
+        display:flex
+    }  
+    .flex-container{
+        margin: 10px;
+        padding: 0px;
+        font-size: 50px;
+        justify-content: space-between;
+        border: 1px solid black;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 
-.flex-box{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: large;
-    border: 1px solid black;
-}
+    .flex-box{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: large;
+        border: 1px solid black;
+    }
 
-.flex-box-header-icons{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    font-size: large;
-    border: 1px solid black;
-}
+    .flex-box-header-icons{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        font-size: large;
+        border: 1px solid black;
+    }
 
 /* BODY FLEX */
     /*BODY 1*/
@@ -131,26 +119,87 @@ footer {background-color: #7cd0ccf2;
         font-size: large;
         border: 1px solid black;
     }
+/*TÍTULO "DOTELS*/
+    .header-dotels{
+        color: #46e7f5;
+        flex-grow: 5;
+        flex-basis: 50%;
+    }
+/*ÍCONOS DEL HEADER*/
+    .header-icons{
+        flex-grow:0.04;
+        flex-basis: 2%
+    }
 
-.header-dotels{
-    color: #46e7f5;
-    flex-grow: 5;
-    flex-basis: 50%;
-}
-
-.header-icons{
-    flex-grow:0.04;
-    flex-basis: 2%
-}
-
+/*LINK DE CONTACTO*/
+    /* unvisited link */
+    a:link {
+        color: red;
+    }
+    /* visited link */
+    a:visited {
+        color: green;
+    }
+    
+    /* selected link */
+    a:active {
+        color: blue;
+    }
 /*SMALL SCREEN*/
     @media only screen and (max-width: 600px){
+        /*CHAU LOGO E ÍCONOS DE REDES SOCIALES*/
+            #logo_dotels{
+                display:none;
+            }
 
-        #logo_dotels{
-            text-align: center;
-        }
+            .flex-container-footer-icons{
+                display:none;
+            }
+        /*CENTRO EL CONTENIDO POR LA DESAPARICIÓN DEL LOGO*/
+            .flex-container-body1{
+                margin: 10px;
+                padding: 0px;
+                font-size: 50px;
+                justify-content:center;
+                border: 1px solid black;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+        /*CAMBIO EL WRAP PARA QUE NO BAJEN LOS BOXES DEL FOOTER*/
+            .flex-container{
+                margin: 10px;
+                padding: 0px;
+                font-size: 50px;
+                justify-content:space-between;
+                border: 1px solid black;
+                flex-direction: row;
+                flex-wrap:initial;
+                align-items: center;
+            }
+        /*DISMINUCIÓN DE FONT-SIZE DE LOS FLEX BOX*/
+            .flex-box{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                font-size: medium;
+                border: 1px solid black;
+            }
 
-        .flex-container-footer-icons{
-            display:none;
-        }
+            .flex-box-body1{
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                font-size: small;
+                border: 1px solid black;
+            }
+
+            .flex-box-body2{
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                font-size: small;
+                border: 1px solid black;
+            }
+       
     }
