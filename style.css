@@ -4,6 +4,23 @@
     body{  font-family: Arial, Helvetica, sans-serif;
     }
 
+/*LOGO DOTELS HEADER POSICIÓN*/
+    .logo-dotels-oficial{
+        top: 25%;
+        position: relative;
+    }
+
+/*CAMBIO EL COLOR DEL TÍTULO*/
+    .dotels{
+        color: #46e7f5;
+        top:25%;
+        position: relative;
+    }
+/*ÍCONOS DEL HEADER*/
+    .iconos-header{
+        top:25%;
+        position:relative;
+    }
 /*Stickea todo el header + relleno, etc*/
     header {
         position: -webkit-sticky;
@@ -11,11 +28,22 @@
         top: 0;
         padding: 5px;
         background-color:#7cd0ccf9;
+        min-height: 100px;
         
     }
-footer {background-color: #7cd0ccf2;
-    font-family: Arial, Helvetica, sans-serif;
-}
+/*PROPIEDADES FOOTER*/
+    footer {
+        background-color: #7cd0ccf2;
+        font-family: Arial, Helvetica, sans-serif;
+    }   
+
+/*PROPIEDADES MAIN*/
+/*NO ESTARÍA FUNCIONANDO*/
+    main {
+        align-content:right;
+        align-items: right;
+    }
+
 
 /*HEADER FLEX Y UN FOOTER*/
     .flex-container{
