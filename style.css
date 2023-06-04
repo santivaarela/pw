@@ -9,12 +9,13 @@
         top: 25%;
         position: relative;
     }
-
+.header1{
+    border-bottom: 0.5px solid black;
+}
 /*CAMBIO EL COLOR DEL TÍTULO*/
     .dotels{
-        color: #46e7f5;
-        top:25%;
-        position: relative;
+        font-family: 'Comfortaa', cursive;
+        color: rgb(66, 99, 216);
     }
 /*ÍCONOS DEL HEADER*/
     .iconos-header{
@@ -27,14 +28,16 @@
         position: sticky;
         top: 0;
         padding: 5px;
-        background-color:#7cd0ccf9;
+        background-color: solid rgb(255, 255, 255);
         min-height: 100px;
+        border-bottom: 0.2px solid rgb(66, 99, 216);
         
     }
 /*PROPIEDADES FOOTER*/
     footer {
-        background-color: #7cd0ccf2;
+        background-color: rgba(0, 140, 255, 0.36);
         font-family: Arial, Helvetica, sans-serif;
+        border-top: 0.2px solid rgb(66, 99, 216);
     }   
 
 
@@ -60,10 +63,16 @@
 
     /*LINK VISITADO*/
         a:visited {
-            color: #7cd0ccf2;
+            color: rgb(66, 99, 216);
         }
         
     /*LINK SELECCIONADO*/
         a:active {
-            color: blue;
+            color: rgb(63, 165, 77);
         }
+
+    .iconos{
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+    }
