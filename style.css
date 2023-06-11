@@ -8,15 +8,19 @@
     .logo-dotels-oficial{
         top: 25%;
         position: relative;
+        color:rgb(66, 99, 216);
     }
+
 .header1{
     border-bottom: 0.5px solid black;
 }
+
 /*CAMBIO EL COLOR DEL TÍTULO*/
     .dotels{
         font-family: 'Comfortaa', cursive;
         color: rgb(66, 99, 216);
     }
+
 /*ÍCONOS DEL HEADER*/
     .iconos-header{
         top:25%;
@@ -29,15 +33,17 @@
         top: 0;
         padding: 5px;
         background-color: solid rgb(255, 255, 255);
+        background: white;
         min-height: 100px;
         border-bottom: 0.2px solid rgb(66, 99, 216);
+        z-index: 999;
         
     }
 /*PROPIEDADES FOOTER*/
     footer {
         background-color: rgba(0, 140, 255, 0.36);
         font-family: Arial, Helvetica, sans-serif;
-        border-top: 0.2px solid rgb(66, 99, 216);
+        border-top: 2px solid rgb(66, 99, 216);
     }   
 
 
@@ -49,30 +55,12 @@
     }
 
 
-/*LINK DE CONTACTO*/
-
-    /*LINK NO VISITADO*/
-        a:link {
-            color: green;
-        }
-
-    /*MOUSE SOBRE EL LINK*/
-        /*a:hover {
-            color: hotpink;
-        }
-
-    /*LINK VISITADO*/
-        a:visited {
+/*LINK NO VISITADO*/
+    a:link {
             color: rgb(66, 99, 216);
-        }
-        
-    /*LINK SELECCIONADO*/
-        a:active {
-            color: rgb(63, 165, 77);
-        }
+    }
 
     .iconos{
-        display: block;
         margin-bottom: 10px;
         text-align: center;
     }
@@ -90,8 +78,110 @@
     object-fit: cover;
 }
 
+.headermargin{
+    margin:0%;
+    padding: 0%;
+    max-width: none;
+}
+
 .mainmargin{
     margin:0%;
     padding: 0%;
+    max-width: none;
+}
+
+#hotelsnames{
+    font-family: 'Comfortaa', cursive;
+    color: rgb(66, 99, 216);
+    font-size: large;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+#font{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.listados .col{
+    margin: 70px 0 30px 0;
+}
+
+.prensamargin{
+    margin-top: 30px;
+}
+
+/*BOTÓN COLOR AZUL*/
+.btn-outline-success {
+    --bs-btn-color: rgb(66, 99, 216);
+    --bs-btn-border-color: rgb(66, 99, 216);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgb(66, 99, 216);
+    --bs-btn-hover-border-color: rgb(66, 99, 216);
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: rgb(66, 99, 216);
+    --bs-btn-active-border-color: rgb(66, 99, 216);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: rgb(66, 99, 216);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: rgb(66, 99, 216);
+    --bs-gradient: none;
+}
+
+.carousel-inner{
+    max-height: 700px;
+}
+
+.imagenhotel{
+    max-height: 300px;
+}
+
+#hotelsnames2{
+    font-family: 'Comfortaa', cursive;
+    color: rgb(66, 99, 216);
+    font-size: 30px;
+}
+#iconosextra{
+    position: relative;
+    color:rgb(66, 99, 216);
+ }
+
+ .imagenes{
+    max-width: 50px;
+    max-height: 30px;
+    max-block-size: 30px;
+    size:30px;
+ }
+ 
+ a.redes{
+    color: black;
+    width: 100%;
+    text-align: center;
+ }
+ .footerlinks{
+    text-decoration: none;
+    color:black;
+ }
+
+
+ @media (max-width: 600px){
+    .carousel-inner{
+        max-height: 225px;
+    }
+    .iconos-header{
+        width:5px !important;
+        height:5px !important;
     
+    }
+}
+
+.row-margin-hotels{
+    margin: 30px;
+    text-align: center;
 }
