@@ -174,10 +174,11 @@
     .carousel-inner{
         max-height: 225px;
     }
-    .iconos-header{
-        width:5px !important;
-        height:5px !important;
-    
+    .informacion{
+        display: none;
+    }
+    .prensamargin{
+        display: none;
     }
 }
 
