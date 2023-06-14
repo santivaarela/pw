@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +21,6 @@
 
 </head>
 <body>
-  <section id="inicio"></section>
       <header>
         <div class="container text-center headermargin" >
 
@@ -34,21 +34,17 @@
               </div>
 
               <div class="col-9 dotels">
-                <a href="#inicio" class="subrayado"><h2> DOTELS</h2></a>
+                <a href="index.html" class="subrayado"><h2> DOTELS</h2></a>
               </div>
 
               <div class="col-2 iconos-header">
-
                 <svg style="cursor:pointer" onclick="foco_en_q()" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                   <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                 </svg>
-
-
-                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" class="footerlinks" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" class="footerlinks" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
                 </svg></a>
-
-                <svg style="cursor:pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <svg style="cursor:pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
                 </svg>
 
@@ -67,7 +63,7 @@
                               <a class="nav-link active" aria-current="page" href="acercadenosotros.html">Acerca de Nosotros</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsTHrTTprVqvtTTrbCNtTsJVDGpcTDMqXzQxhjSNkmpxrRNMZKbsKzFNHMLVDKRLBRhTbvgV" target="_blank">Link de Contacto</a>
+                              <a class="nav-link" href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsTHrTTprVqvtTTrbCNtTsJVDGpcTDMqXzQxhjSNkmpxrRNMZKbsKzFNHMLVDKRLBRhTbvgV"target="_blank">Link de Contacto</a>
                             </li>
                             <li class="nav-item dropdown">
                               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -75,8 +71,8 @@
                               </a>
                               <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="https://www.google.com.ar/maps/dir//Castro+530,+C1217AAB+CABA/@-34.6180153,-58.4230312,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95bcca59d20d03d3:0x6d8a3e93adb8b804!2m2!1d-58.4204563!2d-34.6180197?entry=ttu" target="_blank">Caballito</a></li>
-                                <li><a class="dropdown-item" href="https://www.google.com.ar/maps/dir//Juan+Francisco+Segu%C3%AD+4635,+C1425ADE+CABA/@-34.5732771,-58.4242365,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95bcb59e95c05a43:0x11305a0173e51a96!2m2!1d-58.4216616!2d-34.5732815?entry=ttu" target="_blank">Palermo</a></li>
-                                <li><a class="dropdown-item" href="https://www.google.com.ar/maps/dir//Paraguay+1223,+C1057AAS+CABA/@-34.5979594,-58.3870181,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95bccab874141313:0x3fd4c85e3cdb447c!2m2!1d-58.3844432!2d-34.5979638?entry=ttu" target="_blank">Retiro</a></li>
+                                <li><a class="dropdown-item" href="https://www.google.com.ar/maps/dir//Juan+Francisco+Segu%C3%AD+4635,+C1425ADE+CABA/@-34.5732771,-58.4242365,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95bcb59e95c05a43:0x11305a0173e51a96!2m2!1d-58.4216616!2d-34.5732815?entry=ttu"target="_blank">Palermo</a></li>
+                                <li><a class="dropdown-item" href="https://www.google.com.ar/maps/dir//Paraguay+1223,+C1057AAS+CABA/@-34.5979594,-58.3870181,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95bccab874141313:0x3fd4c85e3cdb447c!2m2!1d-58.3844432!2d-34.5979638?entry=ttu"target="_blank">Retiro</a></li>
                                 <li>
                                   <hr class="dropdown-divider">
                                 </li>
@@ -86,7 +82,7 @@
                           </ul>
                           <form class="d-flex mt-3" role="search" method="post">
                             <input class="form-control me-2" type="search" name="q" id="q" placeholder="Escriba aquí" aria-label="Search">
-                            <button id="buscarButton" class="btn btn-outline-success" type="button" onclick="buscar();">Buscar</button>
+                            <button class="btn btn-outline-success" type="button" onclick="buscar();">Buscar</button>
                           </form>
                         </div>
                       </div>
@@ -100,7 +96,61 @@
     <main>
       
         <div class="container text-left mainmargin">
-          
+
+          <div class="row row-margin-hotels">
+            <div class="col">
+                <div id="hotelsnames2">Hotel Sheraton</div>
+            </div>
+        </div>
+
+        <div class="row row-margin-hotels">
+
+            <div class="col">
+              Los orígenes de los hoteles Sheraton datan de 1933, cuando los compañeros de clase de Harvard, Ernest Henderson y Robert Moore, compraron el Hotel Continental en Cambridge, Massachusetts. En 1937, Henderson y Moore compraron la Standard Investing Company y la convirtieron en la compañía a través de la cual operarían sus hoteles. También en 1937, compraron su segundo hotel, y el primero como parte de la nueva compañía, el Stonehaven Hotel en Springfield, Massachusetts, un edificio de apartamentos convertido. La cadena recibió su nombre del tercer hotel que adquirió la pareja, en Boston, que ya tenía un gran cartel iluminado en el techo que decía "Hotel Sheraton", que era demasiado caro para cambiar. En cambio, Henderson y Moore decidieron llamar a todos sus hoteles por ese nombre. Henderson y Moore compraron el famoso Copley Plaza Hotel de Boston en 1944, y continuaron expandiéndose rápidamente, comprando propiedades existentes a lo largo de la costa este desde Maine hasta Florida. En 1947, Sheraton fue la primera cadena hotelera en cotizar en la Bolsa de Nueva York. Sheraton Hotels se fusionó con U.S. Realty and Improvement Corp. en 1948, formando Sheraton Corporation of America.
+            </div>
+        </div>
+
+        <div class="row row-margin-hotels">
+            <div class="col">
+                <div id="iconosextra"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                    <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+                  </svg></div> 2-8 personas
+            </div>
+            <div class="col">
+                <div id="iconosextra"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+                    <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"/>
+                  </svg></div> $380 - $2000 USD
+            </div>
+            <div class="col">
+                <div id="iconosextra"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16">
+                    <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                  </svg>
+                  </svg></div> Disponibilidad total
+            </div>
+            <div class="col">
+              <div id="iconosextra">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                </svg>
+              </div> Información
+            </div>
+            <div class="col stars">
+              <div id="iconosextra">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+              </div> 5 estrellas
+            </div>
+        </div>
 
             <div class="row">
 
@@ -112,13 +162,13 @@
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="Images/103b851bff79e81d90f2b90eb9574e72.jpg" class="d-block w-100" alt="...">
+                    <img src="Images/sheraton1.jpeg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="Images/hotel_room_2-wallpaper-3840x2400.jpg" class="d-block w-100" alt="...">
+                    <img src="Images/sheraton2.jpeg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="Images/burj-al-arab-hotel-dubai-uae-sky-sea-4k_1538065697.jpg" class="d-block w-100" alt="...">
+                    <img src="Images/sheraton3.jpeg" class="d-block w-100" alt="...">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -130,80 +180,9 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-          
-
-                </div>
             </div>
-            <div class="row listados">
-
-                <div class="col">
-                  <a href="mandarin.html" class="subrayado"><div id="hotelsnames">Mandarin Oriental</div></a>
-                  <ul id="font">
-                    <li>Bangkok</li>
-                    <li>Beijing</li>
-                    <li>Ginebra</li>
-                    <li>Hong Kong</li>
-                  </ul>
-                </div>
-
-                <div class="col">
-                  <a href="four seasons.html" class="subrayado"><div id="hotelsnames">Four Seasons</div></a>
-                  <ul id="font">
-                    <li>Londres</li>
-                    <li>Tokio</li>
-                    <li>Los Ángeles</li>
-                    <li>Sydney</li>
-                  </ul>
-                </div>
-
-                <div class="col">
-                  <a href="plaza.html" class="subrayado"><div id="hotelsnames">Hotel Grand Plaza</div></a>
-                  <ul id="font">
-                    <li>Dubai</li>
-                    <li>París</li>
-                    <li>Singapur</li>
-                    <li>Zúrich</li>
-                  </ul>
-                </div>
-
-            </div>
-
-            <div class="row listados">
-
-              <div class="col">
-                <a href="conrad.html" class="subrayado"><div id="hotelsnames">Conrad Hotel</div></a>
-                <ul id="font">
-                  <li>Kioto</li>
-                  <li>Osaka	</li>
-                  <li>Seúl</li>
-                  <li>Viena</li>
-                </ul>
-              </div>
-
-              <div class="col">
-                <a href="hyatt.html" class="subrayado"><div id="hotelsnames">Park Hyatt Hotel</div></a>
-                <ul id="font">
-                  <li>Copenhague</li>
-                  <li>Estocolmo</li>
-                  <li>Madrid</li>
-                  <li>Venecia</li>
-                </ul>
-              </div>
-
-              <div class="col">
-                <a href="sheraton.html" class="subrayado"><div id="hotelsnames">Sheraton Hotel</div></a>
-                <ul id="font">
-                  <li>Florencia</li>
-                  <li>Tel Aviv</li>
-                  <li>Marsella</li>
-                  <li>Portofino</li>
-                </ul>
-              </div>
-
-          </div>
-
-          </div>
-
+            
+        </div>
     </section>
     </main>
 
@@ -276,7 +255,6 @@
 
     </footer>
 
-    <script type="text/javascript" src="script.js"></script>
 
 </body>
 </html>

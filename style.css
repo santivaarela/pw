@@ -93,7 +93,7 @@
 #hotelsnames{
     font-family: 'Comfortaa', cursive;
     color: rgb(66, 99, 216);
-    font-size: large;
+    font-size: 23px;
     margin: 0 auto;
     text-align: center;
     text-decoration: none;
@@ -169,20 +169,36 @@
     color:black;
  }
 
+ .iconos-header svg{
+    max-width: 30px;
+}
 
  @media (max-width: 600px){
     .carousel-inner{
         max-height: 225px;
     }
-    .informacion{
+    .stars{
         display: none;
     }
     .prensamargin{
         display: none;
+    }
+    .iconos-header svg{
+        max-width: 20px;
+    }    
+    #hotelsnames{
+        font-size: 18px;
     }
 }
 
 .row-margin-hotels{
     margin: 30px;
     text-align: center;
+}
+
+.subrayado{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
 }
